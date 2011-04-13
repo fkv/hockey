@@ -1,0 +1,28 @@
+Apr 13 01:04:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'sensio-labs',  'paris-france' => '1',  'web-developer' => true,)
+Apr 13 01:04:43 symfony [info] {sfFrontWebController} Action "job/sensiolabs" does not exist
+Apr 13 01:04:43 symfony [err] {sfError404Exception} Action "job/sensiolabs" does not exist.
+Apr 13 01:04:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 13 01:04:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 13 01:04:43 symfony [info] {sfWebDebugLogger} Configuration 80.81 ms (5)
+Apr 13 01:04:43 symfony [info] {sfWebDebugLogger} Factories 102.45 ms (1)
+Apr 13 01:04:46 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /job/sensio-labs/paris-france/1/web-developer with parameters array (  'module' => 'job',  'action' => 'sensio-labs',  'paris-france' => '1',  'web-developer' => true,)
+Apr 13 01:04:46 symfony [info] {sfFrontWebController} Action "job/sensiolabs" does not exist
+Apr 13 01:04:46 symfony [err] {sfError404Exception} Action "job/sensiolabs" does not exist.
+Apr 13 01:04:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Apr 13 01:04:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 13 01:04:46 symfony [info] {sfWebDebugLogger} Configuration 0.80 ms (5)
+Apr 13 01:04:46 symfony [info] {sfWebDebugLogger} Factories 20.44 ms (1)
+Apr 13 01:05:37 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Apr 13 01:05:37 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Apr 13 01:05:37 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Apr 13 01:05:37 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Apr 13 01:05:37 symfony [info] {sfPHPView} Render "/home/sfproject/hockey/lib/vendor/symfony-1.4.10/lib/controller/default/templates/indexSuccess.php"
+Apr 13 01:05:37 symfony [info] {sfPHPView} Decorate content with "/home/sfproject/hockey/lib/vendor/symfony-1.4.10/lib/controller/default/templates/defaultLayout.php"
+Apr 13 01:05:37 symfony [info] {sfPHPView} Render "/home/sfproject/hockey/lib/vendor/symfony-1.4.10/lib/controller/default/templates/defaultLayout.php"
+Apr 13 01:05:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Apr 13 01:05:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Apr 13 01:05:37 symfony [info] {sfWebDebugLogger} Configuration 21.74 ms (10)
+Apr 13 01:05:37 symfony [info] {sfWebDebugLogger} Factories 33.13 ms (1)
+Apr 13 01:05:37 symfony [info] {sfWebDebugLogger} Action "default/index" 0.10 ms (1)
+Apr 13 01:05:37 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 24.73 ms (1)
+Apr 13 01:05:37 symfony [info] {sfWebResponse} Send content (28779 o)
